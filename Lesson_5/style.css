@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #08101e;
+}
+
+.top {
+  padding: 10px;
+  padding-bottom: 96px;
+}
+
+.header {
+  padding-top: 40px;
+  padding-bottom: 84px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.header_link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.top_content {
+  margin-top: 162px;
+  margin-bottom: 162px;
+  display: flex;
+  gap: 128px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.top_info {
+  width: 604px;
+}
+
+.subtitle {
+  color: #3A68B8;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%;
+  text-transform: uppercase;
+}
+
+.title {
+  margin-top: 10px;
+  margin-bottom: 17px;
+  color: #fff;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 130%;
+}
+
+.text {
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%;
+  width: 558px;
+}
+
+.top_buttons {
+  margin-top: 37px;
+  display: flex;
+}
+
+.button {
+  display: inline-flex;
+  padding: 15px 30px;
+  gap: 10px;
+  border-radius: 5px;
+  background: #3A68B8;
+  text-align: center;
+  color: #fff;
+
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-right: 30px;
+  align-items: center;
+}
+
+.top_logos {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  gap: 71px;
+}
+
+.content {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(3, 362px);
+  justify-content: center;
+  padding-top: 264px;
+  padding-bottom: 243px;
+}
+
+.item {
+  background: #132035;
+  border-radius: 10px;
+  padding: 30px;
+  display: grid;
+  justify-items: center;
+  gap: 30px;
+}
+
+.item_big {
+  grid-column: span 2;
+  grid-row: span 2;
+  display: grid;
+  justify-items: center;
+  gap: 60px;
+}
+
+.heading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 125%;
+  text-align: center;
+  color: #fff;
+}
+
+.item_text {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #fff;
+}
