@@ -219,7 +219,130 @@ body {
   gap: 24px;
 }
 
-@media (max-width: 1025px) {}
+@media (max-width: 1025px) {
+  .center {
+    padding-left: 42px;
+    padding-right: 40px;
+  }
+
+  .header {
+    gap: 32px;
+  }
+
+  .header_link {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .subtitle {
+    width: 235px;
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .title {
+    margin-top: 10px;
+    margin-bottom: 64px;
+    font-size: 48px;
+    line-height: 130%;
+    text-align: left;
+  }
+
+  .text {
+    text-align: left;
+    font-size: 18px;
+    line-height: 160%;
+  }
+
+  .top_content {
+    margin-top: 64px;
+    display: flex;
+    gap: 128px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .top_buttons {
+    margin-top: 39px;
+    gap: 24px;
+  }
+
+  .top_info {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+  }
+
+  .top_photo {
+    width: 48.7%;
+  }
+
+  .top_logos {
+    margin: 32px auto 0;
+
+    flex-direction: row;
+    gap: 32px;
+  }
+
+  .logo_margin {
+    align-self: start;
+  }
+
+  .content {
+    grid-template-columns: repeat(1, 362px);
+  }
+
+  .item_big {
+    grid-column: 1;
+    grid-row: 2;
+    gap: 30px;
+  }
+
+  .item_big_img {
+    width: 98px;
+  }
+
+  .item_bit_text {
+    width: 302px;
+  }
+
+  .say-about-us {
+    text-align: center;
+    gap: 32px;
+    margin-top: 96px;
+  }
+
+  .heading {
+    font-size: 24px;
+    line-height: 31px;
+    margin-bottom: 0;
+  }
+
+  .footer {
+    gap: 32px;
+    flex-direction: column;
+  }
+
+  .footer-subtitle {
+    align-self: center;
+  }
+
+  .footer-about {
+    order: -1;
+  }
+
+  .footer-info,
+  .footer-about,
+  .footer-store {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-store {
+    align-items: center;
+  }
+}
 
 @media (max-width: 767px) {
   .center {
