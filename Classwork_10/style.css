@@ -1,0 +1,28 @@
+.bg-body-tertiary {
+  background-color: white !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url(img/arrow-right-solid.svg);
+}
+
+.carousel-control-prev-icon {
+  background-image: url(img/arrow-left-solid.svg);
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: currentColor;
+}
+
+.carousel-inner {
+  width: 66.67%;
+  margin: auto;
+}
+
+.carousel-caption {
+  color: currentColor
+}
+
+.bi {
+  fill: currentColor;
+}
