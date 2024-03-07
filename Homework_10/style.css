@@ -63,6 +63,14 @@ summary::-webkit-details-marker {
   gap: 41px;
 }
 
+.header_icon_search:hover path,
+.header_icon_menu:hover path,
+.header_icon_reg:hover path,
+.header_icon_cart:hover path {
+  fill: #F16D7F;
+  transition: fill 0.3s;
+}
+
 .header__right {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -847,7 +855,13 @@ summary::-webkit-details-marker {
 }
 
 .button_pink:hover {
-  text-shadow: #6df1a8;
+  -webkit-box-shadow: 0 0 5px #F16D7F;
+  box-shadow: 0 0 5px #F16D7F;
+  text-shadow: 0px 0px rgb(255, 255, 255);
+}
+
+.product__add:hover svg path {
+  fill: #F16D7F;
 }
 
 .footer_form {
