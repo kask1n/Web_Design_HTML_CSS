@@ -595,6 +595,7 @@ summary::-webkit-details-marker {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  margin-bottom: 30px;
 }
 
 .sort__details {
@@ -656,8 +657,12 @@ summary::-webkit-details-marker {
   -ms-flex-align: center;
   align-items: center;
   gap: 22px;
-  -webkit-transition: all 1s;
-  transition: all 1s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.button path {
+  transition: all 0.3s;
 }
 
 .button:hover {
@@ -736,6 +741,42 @@ summary::-webkit-details-marker {
   align-items: center;
 }
 
+.content h3 {
+  color: rgb(241, 109, 127);
+  font-size: 14px;
+  line-height: 17px;
+  margin-bottom: 12px;
+}
+
+.content__heading {
+  margin-bottom: 25px;
+  color: rgb(77, 77, 77);
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.content__text {
+  color: rgb(94, 94, 94);
+  font-size: 14px;
+  line-height: 17px;
+  margin-left: 293px;
+  margin-right: 293px;
+  text-align: justify;
+}
+
+.content__price {
+  color: rgb(239, 91, 112);
+  font-size: 24px;
+  line-height: 29px;
+  margin-top: 32px;
+}
+
+.content__line-big {
+  width: 641px;
+  border: 1px solid rgb(234, 234, 234);
+  margin: 65px auto;
+}
+
 .all-products-button {
   display: flex;
   justify-content: center;
@@ -744,7 +785,7 @@ summary::-webkit-details-marker {
 
 .subscribe {
   min-height: 448px;
-  background-image: url(img/subscribe.jpg);
+  background-image: url(img/subscribe.png);
   background-size: cover;
   display: flex;
   justify-content: space-between;
